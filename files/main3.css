@@ -1,0 +1,224 @@
+/* CSS Document */
+html, body {
+	background-color: #d9dad1;
+	margin: 0px;
+	height: 100%;
+	color: #404040;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	}
+div {
+	color: #404040;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	}
+/* page active links */
+a, a:link, a:visited
+{
+	color: #808080;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	}
+/* onmouseover */
+a:hover {
+	color: #b9494c;
+	}
+#container {
+	position: absolute;	
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 0px;
+	width: 822px;
+	/*height: 100%;*/
+	left: 50%;	
+	margin-left: -411px;
+	top: 0px;
+	border-left: 1px solid #999d9f;
+	border-right: 1px solid #999d9f;
+	border-bottom: 1px solid #999d9f;
+	background-color: #ffffff;		
+	background-image: url(../images/main.jpg);
+	background-repeat: no-repeat;
+	background-position: 243px 0px;
+	}
+#logo, #logo a	{
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	}
+#logo img{
+	border: 0px;
+	width: 243px;
+	height: 141px;
+	}
+#subnav {
+	float: right;
+	width: 578px;
+	height: 475px;
+	padding: 0px;
+	margin: 0px;
+	}
+#topnav {
+	float: left;
+	width: 243px;
+	height: 333px;
+	background-color: #242832;
+	background-image: url(../images/nb40.jpg);
+	padding: 0px;
+	z-index:5;
+	}
+#topnav a,
+#topnav a:link, 
+#topnav a:visited {
+	color: #fff;
+	}
+#topnav .menulist ul a,
+#topnav .menulist ul a:link,
+#topnav .menulist ul a:visited {
+ 	color: #222;
+	}
+#topnav a:hover, #topnav a:focus,
+#topnav .menulist a:hover,
+#topnav .menulist a.highlighted:hover,
+#topnav .menulist a:focus,
+#topnav .menulist a.highlighted {
+	color: #b9494c;
+	}
+#search {
+	float: left;
+	width: 242px;	
+	text-align: center;
+	vertical-align: middle;
+	}
+#search form {
+	padding-top: 45px;
+	}
+input {
+	border: 1px solid #999d9f;
+	color: #999d9f;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin: 0px;
+	background-color: #deeaf0;
+	}
+.submitbutton, .submitbutton:active {
+	border: 1px solid 999d9f;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -5px;
+	background-color: white;
+	background-image: url(../images/g_arr.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 16px;
+	height: 16px;
+	}
+#content {
+	float: right;
+	width: 578px;
+	border-left: 1px solid #999d9f;
+	}
+#footer {	
+	float: left;	
+	height: 20px;
+	width: 822px;	
+	border-top: 1px solid #999d9f;
+	vertical-align: middle;
+	}
+#lfooter, #rfooter {
+	height: 18px;
+	margin: 0px;
+	padding-top: 2px;
+	vertical-align: middle;
+	}
+#lfooter {
+	float: left;
+	background-color: white;
+	border-right: 1px solid #999d9f;
+	width: 243px;		
+	text-align: center;
+}
+#rfooter {
+	float: right;
+	width: 543px;
+	color: #999d9f;
+	text-align: right;
+	background-color: #deeaf0;
+	padding-right: 35px;
+	}
+/* *****************************
+ * content-block
+ * *****************************/
+ /* teaser bar */
+#chapters {
+	display: block;
+	width: 578px;
+	text-align: center;	
+	}
+div.chapter {
+	float: left;
+	width: 192px;
+	margin: 0px;
+	padding-top: 16px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #606060;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;	
+	font-weight: normal;
+	}
+div.chapter img {
+	width: 138px;
+	height: 92px;
+	border: 1px solid #999d9f;
+	margin-bottom: 4px;
+	}
+a.chap, a.chap:link, a.chap:visited {
+	color: #606060;
+	display: block;
+	clear: both;
+	text-align: left;
+	padding: 0px 17px;
+	margin: 0px;
+	text-decoration: none;
+	background-image: url(../images/g_arr.gif);
+	background-repeat: no-repeat;
+	background-position: 10px 2px;
+	}
+a.chap:hover {
+	background-image: url(../images/r_arr.gif);
+	text-decoration: underline;
+	}
+
+/* *****************************
+ * subnavigation
+ * *****************************/
+#snbg1, #snbg2, #snbg3 {
+	position: absolute;
+	top: 0px;
+	z-index: 0;
+	width: 192px;
+	height: 475px;
+	display: none;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	filter: alpha( opacity=40 );
+	}
+#snbg1 {
+	left: 243px;
+	background-color: #ffffff;
+	}
+#snbg2 {
+	left: 436px;
+	background-color: #b9494c;
+	}
+#snbg3 {
+	left: 629px;
+	background-color: #6b8edd;
+	}
+/*.menulist li:hover div.snbg1 {
+	display: block;
+	}*/
